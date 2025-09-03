@@ -58,7 +58,7 @@ if st.button("Find Your Next Night") and new_title and new_desc:
 
     st.subheader("Recommended for you:")
 
-    custom_placeholder = "https://via.placeholder.com/150x220.png?text=No+Cover"
+    custom_placeholder = "https://raw.githubusercontent.com/amirsohil/randomimages/refs/heads/main/placeholder.png"
 
     for row in recs.iter_rows(named=True):
         st.markdown(f"### {row['title_without_series']}")
